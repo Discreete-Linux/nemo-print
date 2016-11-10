@@ -1,0 +1,14 @@
+Source: nemo-print
+Section: utils
+Priority: extra
+Maintainer: Discreete Linux Team <info@discreete-linux.org>
+Build-Depends: debhelper (>= 9), dh-python
+Standards-Version: 3.9.5
+Homepage: https://www.discreete-linux.org
+
+Package: nemo-print
+Architecture: all
+Depends: ${misc:Depends}, openoffice.org-common | libreoffice-common, nemo-python, python-magic
+Description: Nemo extension that allows printing from nemo
+ This is a nemo extension which allows you to print selected files with
+ libreoffice or directly with CUPS.
